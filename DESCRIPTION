@@ -1,0 +1,15 @@
+Package: laguerreRC
+Type: Package
+Title: Identification d'un Circuit RC par les Fonctions de Laguerre
+Version: 0.1.0
+Authors@R: person("Arnold", "Votre-Nom", role = c("aut", "cre"), email = "arnolddjomanbe@gmail.com")
+Description: Simule un circuit RC a plusieurs etages, genere des donnees
+    entree/sortie bruitees, et identifie le systeme avec un reseau de
+    fonctions de Laguerre (moindres carres, equations normales). Compare le
+    resultat a un modele du premier ordre et etudie l'influence du pole p, du
+    nombre de termes N et du bruit. Projet d'ingenieur, Ecole Polytechnique de
+    Douala.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Depends: R (>= 3.5.0)
+Imports: graphics, grDevices, stats, utils

@@ -1,0 +1,6 @@
+sortie/
+.Rproj.user/
+.Rhistory
+.RData
+*.tar.gz
+laguerreRC.Rcheck/
